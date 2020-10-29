@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>Python cơ bản - pmk&#039;s Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="pmk&#039;s Blog"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="pmk&#039;s Blog"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta description="pmk&amp;#39;s personal blog"><meta property="og:type" content="blog"><meta property="og:title" content="pmk&#039;s blog"><meta property="og:url" content="https://pmkhoi.com/"><meta property="og:site_name" content="pmk&#039;s Blog"><meta property="og:description" content="pmk&amp;#39;s personal blog"><meta property="og:locale" content="en_US"><meta property="og:image" content="https://pmkdrag0n.github.io/images/logo.jpg"><meta property="article:published_time" content="2020-07-19T16:54:19.000Z"><meta property="article:modified_time" content="2020-10-29T08:31:51.100Z"><meta property="article:author" content="Pham Minh Khoi"><meta property="article:tag" content="Python"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://pmkdrag0n.github.io/images/logo.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://pmkhoi.com/2020/07/19/Python-co-ban/"},"headline":"pmk's Blog","image":["http://pmkhoi.com/images/blog_python/cover_python.jpg"],"datePublished":"2020-07-19T16:54:19.000Z","dateModified":"2020-10-29T08:31:51.100Z","author":{"@type":"Person","name":"Pham Minh Khoi"},"description":"Python là một ngôn ngữ được sử dụng rộng rãi trong nhiều lĩnh vực như AI, Data analysis, machine learning,… Còn đối với Network, Python cho phép bạn build một đoạn Script có thể tự động hoá hệ thống m"}</script><link rel="canonical" href="http://pmkhoi.com/2020/07/19/Python-co-ban/"><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.2.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">pmk&#039;s blog</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/cheat_sheet">Cheat Sheets</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="My GitHub" href="https://github.com/pmkdrag0n"><i class="fab fa-github"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="Catalogue" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="fill" src="/images/blog_python/cover_python.jpg" alt="Python cơ bản"></span></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2020-07-19T16:54:19.000Z" title="2020-07-19T16:54:19.000Z">19-07-2020</time></span><span class="level-item">Updated&nbsp;<time dateTime="2020-10-29T08:31:51.100Z" title="2020-10-29T08:31:51.100Z">29-10-2020</time></span><span class="level-item"><a class="link-muted" href="/categories/Network-Automation/">Network Automation</a></span><span class="level-item">7 minutes read (About 1089 words)</span></div></div><h1 class="title is-3 is-size-4-mobile">Python cơ bản</h1><div class="content"><p>Python là một ngôn ngữ được sử dụng rộng rãi trong nhiều lĩnh vực như AI, Data analysis, machine learning,… Còn đối với Network, Python cho phép bạn build một đoạn Script có thể tự động hoá hệ thống mạng phức tạp của bạn. Một trong những lý do Python được chọn để sử dụng để tự động hoá hệ thống bao gồm:</p>
+<ul>
+<li>Dễ sử dụng không cần cú pháp rườm rà (Nếu bạn đã biết một số ngôn ngữ lập trình như C, Java,… thì việc làm quen với python rất dễ dàng )</li>
+<li>Không cần phải compile ( Bạn có thể chạy script trên bất kỳ thiết bị nào như Máy tính cá nhân của bạn, Server, Router/Switch,…)</li>
+<li>Có thể dùng bất kỳ Editor nào để code Python<a id="more"></a>
+
+</li>
+</ul>
+<p>Dưới đây là một số Syntax của python mình tổng hợp lại</p>
+<h1 id="Chay-file-python"><a href="#Chay-file-python" class="headerlink" title="Chạy file python:"></a><strong>Chạy file python:</strong></h1><p>Trên Linux sẽ là python3 thay vì py như trên Windows</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ py [tên file].py </span><br></pre></td></tr></table></figure>
+
+<h1 id="Data-type"><a href="#Data-type" class="headerlink" title="Data type:"></a><strong>Data type:</strong></h1><table>
+<thead>
+<tr>
+<th>Data  Type</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Integers</td>
+<td>-2,  -1, 0, 1, 2, 3, 4</td>
+</tr>
+<tr>
+<td>Floating</td>
+<td>-1.25,  -1.0, –0.5</td>
+</tr>
+<tr>
+<td>Strings</td>
+<td>“Hello”</td>
+</tr>
+<tr>
+<td>Boolean</td>
+<td>True,  False</td>
+</tr>
+</tbody></table>
+<p>Có thể dùng hàm type() để kiểm tra data type</p>
+<h1 id="Numerical-Operators-Phep-toan"><a href="#Numerical-Operators-Phep-toan" class="headerlink" title="Numerical Operators (Phép toán)"></a><strong>Numerical Operators (Phép toán)</strong></h1><table>
+<thead>
+<tr>
+<th>Cộng</th>
+<th>+</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Trừ</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Nhân</td>
+<td>*</td>
+</tr>
+<tr>
+<td>Chia</td>
+<td>/</td>
+</tr>
+<tr>
+<td>Chia  lấy dư (mod)</td>
+<td>%</td>
+</tr>
+<tr>
+<td>Mũ</td>
+<td>**</td>
+</tr>
+</tbody></table>
+<h1 id="Variables"><a href="#Variables" class="headerlink" title="Variables:"></a><strong>Variables:</strong></h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>str1=<span class="string">&quot;Cisco&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>str2=<span class="string">&quot;Networking&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>str1 + str2</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>CiscoNetworking</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">str</span>=”Cisco”</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a = <span class="number">3</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">str</span>*<span class="number">3</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>CiscoCiscoCisco</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="Quy-tac-dat-ten-bien"><a href="#Quy-tac-dat-ten-bien" class="headerlink" title="Quy tắc đặt tên biến"></a><strong>Quy tắc đặt tên biến</strong></h1><p>Quy tắc đặt tên biến cho Python:</p>
+<ul>
+<li>Không được bắt đầu bằng chữ số [0-9]</li>
+<li>Có thể chưa các ký tự [A-Za-z0-9_-]</li>
+<li>Một số quy chuẩn đặt tên cho variables, classes, functions như<ul>
+<li><a target="_blank" rel="noopener" href="https://www.python.org/dev/peps/pep-0008/">PEP8</a></li>
+</ul>
+</li>
+<li>Không được sử dụng các từ khoá</li>
+</ul>
+<h1 id="Basic-I-O"><a href="#Basic-I-O" class="headerlink" title="Basic I/O:"></a><strong>Basic I/O:</strong></h1><p>Để nhận giá trị người dùng nhập vào dùng hàm input()</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span> i  =  <span class="built_in">input</span>(“Enter a Number: ”)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span> Enter  a  Number:  <span class="number">1</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span> <span class="built_in">int</span>(i)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span> <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+<p>Để in ra màn hình người dùng sử dụng hàm print()</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span> print(‘a’, ‘b’, ‘c’)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span> a  b  c</span><br></pre></td></tr></table></figure>
+<h1 id="Conditionals-if…elif…else"><a href="#Conditionals-if…elif…else" class="headerlink" title="Conditionals (if…elif…else):"></a><strong>Conditionals (if…elif…else):</strong></h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> expression1:</span><br><span class="line">	statements…</span><br><span class="line"><span class="keyword">elif</span> expression2:</span><br><span class="line">	statements…</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">	statements</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="Comparison-Operators"><a href="#Comparison-Operators" class="headerlink" title="Comparison Operators:"></a><strong>Comparison Operators:</strong></h1><table>
+<thead>
+<tr>
+<th>Bé  hơn</th>
+<th>&lt;</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Lớn  hơn</td>
+<td>&gt;</td>
+</tr>
+<tr>
+<td>Bé  hơn bằng</td>
+<td>&lt;=</td>
+</tr>
+<tr>
+<td>Lớn  hơn bằng</td>
+<td>&gt;=</td>
+</tr>
+<tr>
+<td>Bằng</td>
+<td>==</td>
+</tr>
+<tr>
+<td>Khác</td>
+<td>!=</td>
+</tr>
+<tr>
+<td>Chứa  trong</td>
+<td>in</td>
+</tr>
+</tbody></table>
+<p>Có thể kết hợp với <strong><em>and, or*</em></strong>,* và <strong><em>not\</em></strong> dùng để phủ định</p>
+<p>Ví dụ:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>Devices = [<span class="string">&quot;R1&quot;</span>,<span class="string">&quot;R2&quot;</span>,<span class="string">&quot;R3&quot;</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">if</span> <span class="string">&quot;Sw&quot;</span> <span class="keyword">not</span> <span class="keyword">in</span> Devices:</span><br><span class="line">...		print(<span class="string">&quot;Switch not in devices&quot;</span>)</span><br><span class="line"><span class="meta">... </span><span class="keyword">else</span>:</span><br><span class="line"><span class="meta">... </span>	print(<span class="string">&quot;Switch in devices&quot;</span>)</span><br><span class="line">...</span><br><span class="line">Switch <span class="keyword">not</span> <span class="keyword">in</span> devices </span><br></pre></td></tr></table></figure>
+
+<h1 id="Functions"><a href="#Functions" class="headerlink" title="Functions:"></a><strong>Functions:</strong></h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">function_name</span>(<span class="params">arg_names</span>):</span></span><br><span class="line"></span><br><span class="line">	statements…</span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> value</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="Data-Structures"><a href="#Data-Structures" class="headerlink" title="Data Structures:"></a><strong>Data Structures:</strong></h1><p>List:</p>
+<p>-     Là danh sách chứa các item bên trong</p>
+<p>-     Item bên trong có thể là bất kỳ loại dữ liệu nào</p>
+<p>-     Bắt đầu bằng dấu []</p>
+<p>Ví dụ:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[‘a’, <span class="number">1</span>, <span class="number">18.2</span>]</span><br></pre></td></tr></table></figure>
+
+
+<p>Dictionary (dict):</p>
+<p>-     Là danh sách chưa các cặp key- value ( tương tự JSON)</p>
+<p>Ví dụ:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;“apples”: <span class="number">5</span>,“pears”: <span class="number">2</span>,“oranges”: <span class="number">9</span>&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="Cach-su-dung-list-va-dict"><a href="#Cach-su-dung-list-va-dict" class="headerlink" title="Cách sử dụng list và dict:"></a><strong>Cách sử dụng list và dict:</strong></h1><ul>
+<li><p><strong>List</strong>:</p>
+<ul>
+<li>Creating:<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">l=[‘a’,<span class="number">1</span>,  <span class="number">18.2</span>]</span><br></pre></td></tr></table></figure></li>
+<li>Accessing:<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt;l[<span class="number">2</span>] </span><br><span class="line"><span class="number">18.2</span></span><br></pre></td></tr></table></figure></li>
+<li>Updating:<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt;l[<span class="number">2</span>]  = <span class="number">20.4</span> </span><br><span class="line">&gt;&gt;&gt;l</span><br><span class="line">[‘a’,  <span class="number">1</span>, <span class="number">20.4</span>  ] </span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p><strong>Dictionary</strong>:</p>
+<ul>
+<li>Creating:<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">d =  &#123;“apples”: <span class="number">5</span>,  “pears”: <span class="number">2</span>,  “oranges”: <span class="number">9</span>&#125;</span><br></pre></td></tr></table></figure></li>
+<li>Accessing:<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt;d[“pears”] </span><br><span class="line"><span class="number">2</span></span><br></pre></td></tr></table></figure></li>
+<li>Updating:<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt;d[“pears”]=<span class="number">6</span> </span><br><span class="line">&gt;&gt;&gt;d</span><br><span class="line">&#123;“apples”:   <span class="number">5</span>,  “pears”: <span class="number">6</span>, “oranges”:<span class="number">9</span>&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">  </span><br><span class="line">  </span><br><span class="line"></span><br><span class="line"># **Loops:**</span><br><span class="line"></span><br><span class="line">​&#96;&#96;&#96; python</span><br><span class="line">Iterative Loops (For):</span><br><span class="line"></span><br><span class="line">	for individual_item in iterator:</span><br><span class="line"></span><br><span class="line">	statements…</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+</li>
+</ul>
+<p>Ví dụ:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>names = [<span class="string">&quot;chris&quot;</span>, <span class="string">&quot;iftach&quot;</span>, <span class="string">&quot;jay&quot;</span>]</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">for</span> name <span class="keyword">in</span> names:</span><br><span class="line"></span><br><span class="line"><span class="meta">... </span>print(name)</span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">chris</span><br><span class="line"></span><br><span class="line">iftach </span><br><span class="line"></span><br><span class="line">jay</span><br></pre></td></tr></table></figure>
+
+<h1 id="Conditional-Loops-While"><a href="#Conditional-Loops-While" class="headerlink" title="Conditional Loops (While):"></a><strong>Conditional Loops (While):</strong></h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> logical_expression:</span><br><span class="line"></span><br><span class="line">   statements…</span><br></pre></td></tr></table></figure>
+
+<p>Ví dụ:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">\&gt;&gt;&gt; i = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">\&gt;&gt;&gt; <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line"></span><br><span class="line"><span class="meta">... </span>print(i)</span><br><span class="line"></span><br><span class="line"><span class="meta">... </span>i += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line"><span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="number">3</span></span><br><span class="line"></span><br><span class="line"><span class="number">4</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="Format"><a href="#Format" class="headerlink" title="Format"></a><strong>Format</strong></h1><p>Sử dụng hàm format() để xử lý String. Ví dụ:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>name = <span class="string">&quot;Khoi&quot;</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(<span class="string">&quot;Hello, my name is &#123;&#125;&quot;</span>.<span class="built_in">format</span>(name))</span><br><span class="line">Hello, my name <span class="keyword">is</span> Khoi</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="Troubleshoot-code-python"><a href="#Troubleshoot-code-python" class="headerlink" title="Troubleshoot code python"></a><strong>Troubleshoot code python</strong></h1><p>Các quy tắc khi kiểm tra lỗi code python:</p>
+<ul>
+<li>Đọc dòng cuối cùng đầu tiên</li>
+<li>Đọc từ trên xuống</li>
+<li>Bỏ qua khi gặp code người khác</li>
+</ul>
+<h1 id="Comment"><a href="#Comment" class="headerlink" title="Comment"></a><strong>Comment</strong></h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#This is</span></span><br><span class="line"><span class="comment">#Single line</span></span><br><span class="line"><span class="comment">#Comment</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="Doc-String"><a href="#Doc-String" class="headerlink" title="Doc String"></a><strong>Doc String</strong></h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">this is </span></span><br><span class="line"><span class="string">multiple </span></span><br><span class="line"><span class="string">line comment</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="Using-Modules"><a href="#Using-Modules" class="headerlink" title="Using Modules"></a><strong>Using Modules</strong></h1><p>Module ở đây các bạn chỉ cần hiểu đơn giản nó là code của người khác và mình sử dụng lại nó bằng cách import. Mình cũng có thể sử dụng lại code của mình nữa</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">import os</span><br><span class="line">import sys</span><br><span class="line">import (something)</span><br></pre></td></tr></table></figure>
+
+<p>Updated: 23/07/2020</p>
+</div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/Python/">Python</a></div><div class="addthis_inline_share_toolbox"></div><script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f12702e7c76c45e" defer></script></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2020/07/21/Thiet-lap-Workstation-danh-cho-DevNet-tren-Windows-voi-WSL-2/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">Thiết lập Workstation dành cho DevNet trên Windows với WSL 2</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2020/07/18/Ly-do-vi-sao-nen-dung-Arch-Linux/"><span class="level-item">Lý do vì sao nên dùng Arch Linux? </span><i class="level-item fas fa-chevron-right"></i></a></div></nav><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1 is-sticky"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="https://www.gravatar.com/avatar/40c40de6190268d10debbad8c16fb21b?s=128" alt="Phạm Minh Khôi"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Phạm Minh Khôi</p><p class="is-size-6 is-block">Network Engineer</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Ho Chi Minh city, Vietnam</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Posts</p><a href="/archives"><p class="title">6</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Categories</p><a href="/categories"><p class="title">2</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/tags"><p class="title">5</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/pmkdrag0n" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/pmkdrag0n"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Telegram" href="https://t.me/BlackDrag0n98"><i class="fab fa-telegram"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Badge" href="https://www.youracclaim.com/users/minh-khoi-pham"><i class="fas fa-certificate"></i></a></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">Categories</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/Linux/"><span class="level-start"><span class="level-item">Linux</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li><li><a class="level is-mobile" href="/categories/Network-Automation/"><span class="level-start"><span class="level-item">Network Automation</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">Tags</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/Linux/"><span class="tag">Linux</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Monitor/"><span class="tag">Monitor</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Python/"><span class="tag">Python</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Setup/"><span class="tag">Setup</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/WSL2/"><span class="tag">WSL2</span><span class="tag">1</span></a></div></div></div></div></div><div class="column-right-shadow is-hidden-widescreen is-sticky"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3 is-sticky"><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">Catalogue</h3><ul class="menu-list"><li><a class="level is-mobile" href="#Chay-file-python"><span class="level-left"><span class="level-item">1</span><span class="level-item">Chạy file python:</span></span></a></li><li><a class="level is-mobile" href="#Data-type"><span class="level-left"><span class="level-item">2</span><span class="level-item">Data type:</span></span></a></li><li><a class="level is-mobile" href="#Numerical-Operators-Phep-toan"><span class="level-left"><span class="level-item">3</span><span class="level-item">Numerical Operators (Phép toán)</span></span></a></li><li><a class="level is-mobile" href="#Variables"><span class="level-left"><span class="level-item">4</span><span class="level-item">Variables:</span></span></a></li><li><a class="level is-mobile" href="#Quy-tac-dat-ten-bien"><span class="level-left"><span class="level-item">5</span><span class="level-item">Quy tắc đặt tên biến</span></span></a></li><li><a class="level is-mobile" href="#Basic-I-O"><span class="level-left"><span class="level-item">6</span><span class="level-item">Basic I/O:</span></span></a></li><li><a class="level is-mobile" href="#Conditionals-if…elif…else"><span class="level-left"><span class="level-item">7</span><span class="level-item">Conditionals (if…elif…else):</span></span></a></li><li><a class="level is-mobile" href="#Comparison-Operators"><span class="level-left"><span class="level-item">8</span><span class="level-item">Comparison Operators:</span></span></a></li><li><a class="level is-mobile" href="#Functions"><span class="level-left"><span class="level-item">9</span><span class="level-item">Functions:</span></span></a></li><li><a class="level is-mobile" href="#Data-Structures"><span class="level-left"><span class="level-item">10</span><span class="level-item">Data Structures:</span></span></a></li><li><a class="level is-mobile" href="#Cach-su-dung-list-va-dict"><span class="level-left"><span class="level-item">11</span><span class="level-item">Cách sử dụng list và dict:</span></span></a></li><li><a class="level is-mobile" href="#Conditional-Loops-While"><span class="level-left"><span class="level-item">12</span><span class="level-item">Conditional Loops (While):</span></span></a></li><li><a class="level is-mobile" href="#Format"><span class="level-left"><span class="level-item">13</span><span class="level-item">Format</span></span></a></li><li><a class="level is-mobile" href="#Troubleshoot-code-python"><span class="level-left"><span class="level-item">14</span><span class="level-item">Troubleshoot code python</span></span></a></li><li><a class="level is-mobile" href="#Comment"><span class="level-left"><span class="level-item">15</span><span class="level-item">Comment</span></span></a></li><li><a class="level is-mobile" href="#Doc-String"><span class="level-left"><span class="level-item">16</span><span class="level-item">Doc String</span></span></a></li><li><a class="level is-mobile" href="#Using-Modules"><span class="level-left"><span class="level-item">17</span><span class="level-item">Using Modules</span></span></a></li></ul></div></div><style>.menu-list > li > a.is-active + .menu-list { display: block; }.menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">Recents</h3><article class="media"><figure class="media-left"><a class="image" href="/2020/08/26/Prometheus-Grafana/"><img src="/images/blog5/1.jpg" alt="Prometheus &amp; Grafana"></a></figure><div class="media-content"><p class="date"><time dateTime="2020-08-27T06:42:56.000Z">26-08-2020</time></p><p class="title"><a href="/2020/08/26/Prometheus-Grafana/">Prometheus &amp; Grafana</a></p><p class="categories"><a href="/categories/Linux/">Linux</a></p></div></article><article class="media"><figure class="media-left"><a class="image" href="/2020/07/21/Thiet-lap-Workstation-danh-cho-DevNet-tren-Windows-voi-WSL-2/"><img src="/images/blog4/blog_4_thumb.png" alt="Thiết lập Workstation dành cho DevNet trên Windows với WSL 2"></a></figure><div class="media-content"><p class="date"><time dateTime="2020-07-21T22:52:40.000Z">21-07-2020</time></p><p class="title"><a href="/2020/07/21/Thiet-lap-Workstation-danh-cho-DevNet-tren-Windows-voi-WSL-2/">Thiết lập Workstation dành cho DevNet trên Windows với WSL 2</a></p><p class="categories"><a href="/categories/Network-Automation/">Network Automation</a></p></div></article><article class="media"><figure class="media-left"><a class="image" href="/2020/07/19/Python-co-ban/"><img src="/images/blog_python/cover_python.jpg" alt="Python cơ bản"></a></figure><div class="media-content"><p class="date"><time dateTime="2020-07-19T16:54:19.000Z">19-07-2020</time></p><p class="title"><a href="/2020/07/19/Python-co-ban/">Python cơ bản</a></p><p class="categories"><a href="/categories/Network-Automation/">Network Automation</a></p></div></article><article class="media"><figure class="media-left"><a class="image" href="/2020/07/18/Ly-do-vi-sao-nen-dung-Arch-Linux/"><img src="/images/blog3/blog_3_1.png" alt="Lý do vì sao nên dùng Arch Linux? "></a></figure><div class="media-content"><p class="date"><time dateTime="2020-07-18T22:43:09.000Z">18-07-2020</time></p><p class="title"><a href="/2020/07/18/Ly-do-vi-sao-nen-dung-Arch-Linux/">Lý do vì sao nên dùng Arch Linux? </a></p><p class="categories"><a href="/categories/Linux/">Linux</a></p></div></article><article class="media"><figure class="media-left"><a class="image" href="/2020/07/18/Minh-da-setup-Arch-Linux-nhu-the-nao-Part-2-Setup-Nvidia-driver-Zsh-plugins-alias/"><img src="/images/blog2/blog_2_1.png" alt="Mình đã setup Arch Linux như thế nào? (Part 2: Setup Nvidia driver + Zsh plugins + alias)"></a></figure><div class="media-content"><p class="date"><time dateTime="2020-07-18T20:38:16.000Z">18-07-2020</time></p><p class="title"><a href="/2020/07/18/Minh-da-setup-Arch-Linux-nhu-the-nao-Part-2-Setup-Nvidia-driver-Zsh-plugins-alias/">Mình đã setup Arch Linux như thế nào? (Part 2: Setup Nvidia driver + Zsh plugins + alias)</a></p><p class="categories"><a href="/categories/Linux/">Linux</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">Archives</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2020/08/"><span class="level-start"><span class="level-item">August 2020</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/archives/2020/07/"><span class="level-start"><span class="level-item">July 2020</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li></ul></div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/">pmk&#039;s blog</a><p class="is-size-7"><span>&copy; 2020 Pham Minh Khoi</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent " target="_blank" rel="noopener" title="Network|Linux|Code|Stuff|" href="/">Network|Linux|Code|Stuff|</a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Telegram" href="https://t.me/BlackDrag0n98"><i class="fab fa-telegram"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="My GitHub" href="https://github.com/pmkdrag0n"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" async></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "This website uses cookies to improve your experience.",
+          dismiss: "Got it!",
+          allow: "Allow cookies",
+          deny: "Decline",
+          link: "Learn more",
+          policy: "Cookie Policy",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>

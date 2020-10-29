@@ -1,0 +1,22 @@
+1. May ao XP co cai san Solarwind
+https://actvneduvn-my.sharepoint.com/:u:/g/personal/dainn_actvn_edu_vn/EShk7tLHPmhNhl5fwyZYac0BWO0cFWutQiUsqhnxKIdQ8A?e=jVBWOh
+2. May ap XP co cai san SDM ASDM
+https://actvneduvn-my.sharepoint.com/:u:/g/personal/dainn_actvn_edu_vn/EcnndoxHV0NPmt59ehy9-0EBf55yaiozPxjrDqGaAFtnOg?e=0JZQmZ
+3. May ao Window 10: password la "ngocdai123"
+https://actvneduvn-my.sharepoint.com/:u:/g/personal/dainn_actvn_edu_vn/EcNtVpkiDLZKhE67JUAUiMIBk4RudAfKoFromlFlScQgOQ?e=1tF8PJ
+4. May ao Kali 2020, username "ngocdai", password "123456"
+https://actvneduvn-my.sharepoint.com/:u:/g/personal/dainn_actvn_edu_vn/EYgeOqbmmPZOsMgu9PwlfVcBtUcZEPBz8deZMrg2sM2mGw?e=teQo8T
+5. GNS3 VM 15G, day du cac thiet bi hoc mang:
+https://actvneduvn-my.sharepoint.com/:u:/g/personal/dainn_actvn_edu_vn/EV2dfkJ7aatLoq_R5iLIeMgBwFYB6erecP8v0oiKwQpQFQ?e=PqNgqe
+6. File iso Linux CentOS 8.1
+https://actvneduvn-my.sharepoint.com/:u:/g/personal/dainn_actvn_edu_vn/EQ-wnDQEC2REgjRsnw-XzLwBMDzpqYUXi480yYrfVf5MUg?e=lxhC7G
+7. May ao Linux CentOS 8.1, username "root", password "123456" hoac "abc123!"
+https://actvneduvn-my.sharepoint.com/:u:/g/personal/dainn_actvn_edu_vn/ETQ5eNdoL1tAnS3R1OkGK2UBya5ctYIRqdba11fWm6yJHQ?e=KKhYuQ
+8. May ao window server 2012, password "P@ssWord123"
+https://actvneduvn-my.sharepoint.com/:u:/g/personal/dainn_actvn_edu_vn/EWarRWixS0dMr1UW0WEHDfsB05oPUa5AUR1sXRqPoakGtQ?e=YqDqR8
+9. File iso window server 2012
+https://actvneduvn-my.sharepoint.com/:u:/g/personal/dainn_actvn_edu_vn/EWWcrHw0u9BOl-EIq8N3ZZQB1HNbnMS1MddQooRpUaJTWA?e=RiGz1Q
+10. Phan mem Vmware workstation 15.5
+https://actvneduvn-my.sharepoint.com/:f:/g/personal/dainn_actvn_edu_vn/EjHjp8vmpINOpXzWBYuGXDcBvmVF-L_fWRE2ZrOLvyQ4Kw?e=ao9EUx
+11. Source GNS3 client va file huong dan su dung, ket hop voi may ao o link so 5
+https://actvneduvn-my.sharepoint.com/:f:/g/personal/dainn_actvn_edu_vn/Etvp-EAdDe5Nv0cb9TjgFb0B_k1pkRS5RrKa3dIt1ZMSuw?e=9C6bSe
